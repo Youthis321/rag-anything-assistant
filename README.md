@@ -162,9 +162,3 @@ gunicorn app:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 Gunakan lisensi yang sesuai untuk proyek Anda (mis. MIT). Jika memakai API berbayar (Gemini Pro), perhatikan aturan penggunaan dan rate limits.
 
 ---
-
-Jika Anda mau, saya bisa:
-- Menambahkan badge status build atau contoh `.env.example` di `backend/`
-- Menulis skrip Dockerfile + docker-compose untuk menjalankan frontend + backend + data secara lokal
-
-Status: README global dibuat pada `README.md` (root).
